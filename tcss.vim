@@ -14,8 +14,8 @@
 "                [Known Issues]
 "               -Struggling with '#' and ':'
 "               -Nesting may not work properly
-"               -Property defenition must ends with ';'
-"               -...
+"               -Property defenition must end with ';'
+"               -Misspelling?
 "
 "
 "                [TODO]
@@ -118,14 +118,13 @@ syn keyword cssTextualProp contained scrollbar-corner-color scrollbar-gutter
 " 4. Property keywords
 " display and visibility
 syn keyword cssTextualPropKeyword contained block visible
-" horizontal and vertical
-syn keyword cssTextualPropKeyword contained horizontal vertical
+" align
 syn keyword cssTextualPropKeyword contained left center right
 syn keyword cssTextualPropKeyword contained top middle bottom
 " layout
-syn keyword cssTextualPropKeyword contained grid
+syn keyword cssTextualPropKeyword contained grid horizontal vertical
 " border/outline types
-syn keyword cssTextualPropKeyword contained ascii blank dashed double heavy hidden hkey inner outer panel round solid tall thick vkey wide
+syn keyword cssTextualPropKeyword contained ascii blank dashed double heavy hkey inner outer panel round solid tall thick vkey wide
 " keyline
 syn keyword cssTextualPropKeyword contained thin
 " box-sizing
@@ -138,7 +137,7 @@ syn keyword cssTextualPropKeyword contained hidden scroll
 " scrollbar-gutter
 syn keyword cssTextualPropKeyword contained stable
 " common
-syn keyword cssTextualPropKeyword contained auto hidden initial none
+syn keyword cssTextualPropKeyword contained auto initial none
 
 
 " 5. Defenition regions
